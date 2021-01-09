@@ -1,0 +1,356 @@
+{
+	"id": "0a0666e9-2c9f-4f40-b83c-2bf5cba02320",
+	"name": "API Hunter                 ",
+	"timestamp": "2021-01-09T14:01:10.553Z",
+	"collection_id": "13995703-96ca-4123-a97e-b76cbfb767be",
+	"folder_id": "0d2b662d-01f1-497c-9dc6-f01af4ee80ab",
+	"environment_id": "1e899ddc-756e-452d-9649-406e8bdafa48",
+	"totalPass": 78,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "cbef7d2b-ae7a-428d-aace-510ac4ecd546",
+			"name": "POST - Criar novo lead",
+			"time": 1112,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response time is less than 3000ms": true,
+				"Successful POST request": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 3000ms": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 6,
+					"fail": 0
+				}
+			},
+			"times": [
+				1003,
+				1100,
+				873,
+				707,
+				772,
+				1112
+			],
+			"allTests": [
+				{
+					"Response time is less than 3000ms": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Response time is less than 3000ms": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Response time is less than 3000ms": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Response time is less than 3000ms": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Response time is less than 3000ms": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Response time is less than 3000ms": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "576ad57e-a17e-4629-8fbb-37469c9c1c3d",
+			"name": "GET - Todos Leads",
+			"time": 856,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 3000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Response time is less than 3000ms": {
+					"pass": 6,
+					"fail": 0
+				}
+			},
+			"times": [
+				1059,
+				856,
+				908,
+				1153,
+				785,
+				856
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 3000ms": true
+				}
+			]
+		},
+		{
+			"id": "f5303e8d-2fe2-4a89-b0c7-cc452d49c6dc",
+			"name": "GET - Busca Leads específico",
+			"time": 916,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 3000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Response time is less than 3000ms": {
+					"pass": 6,
+					"fail": 0
+				}
+			},
+			"times": [
+				757,
+				560,
+				723,
+				497,
+				923,
+				916
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 3000ms": true
+				}
+			]
+		},
+		{
+			"id": "5ba15931-eeee-4bc9-a688-e63ac0f67f1c",
+			"name": "PUT - Editar Lead",
+			"time": 2239,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code name has string": true,
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code name has string": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Status code is 204": {
+					"pass": 6,
+					"fail": 0
+				}
+			},
+			"times": [
+				2088,
+				1800,
+				1405,
+				1452,
+				1678,
+				2239
+			],
+			"allTests": [
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "1d214085-a2d2-43cd-8534-790dafbeb3c2",
+			"name": "DELETE - Excluir Lead",
+			"time": 791,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code name has string": true,
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code name has string": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Status code is 204": {
+					"pass": 6,
+					"fail": 0
+				}
+			},
+			"times": [
+				1033,
+				957,
+				945,
+				1113,
+				857,
+				791
+			],
+			"allTests": [
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 6,
+	"totalTime": 31918,
+	"collection": {
+		"requests": [
+			{
+				"id": "cbef7d2b-ae7a-428d-aace-510ac4ecd546",
+				"method": "POST"
+			},
+			{
+				"id": "576ad57e-a17e-4629-8fbb-37469c9c1c3d",
+				"method": "GET"
+			},
+			{
+				"id": "f5303e8d-2fe2-4a89-b0c7-cc452d49c6dc",
+				"method": "GET"
+			},
+			{
+				"id": "5ba15931-eeee-4bc9-a688-e63ac0f67f1c",
+				"method": "PUT"
+			},
+			{
+				"id": "1d214085-a2d2-43cd-8534-790dafbeb3c2",
+				"method": "DELETE"
+			}
+		]
+	}
+}
