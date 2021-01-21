@@ -1,0 +1,53 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Jan-2021 16:27:02.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
+12-Jan-2021 16:27:02.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
+12-Jan-2021 16:27:02.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
+12-Jan-2021 16:27:02.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+12-Jan-2021 16:27:02.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.7
+12-Jan-2021 16:27:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+12-Jan-2021 16:27:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home
+12-Jan-2021 16:27:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9+7-LTS
+12-Jan-2021 16:27:02.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Jan-2021 16:27:02.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50
+12-Jan-2021 16:27:02.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50
+12-Jan-2021 16:27:02.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Jan-2021 16:27:02.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Jan-2021 16:27:02.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Jan-2021 16:27:02.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50/conf/logging.properties
+12-Jan-2021 16:27:02.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Jan-2021 16:27:02.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Jan-2021 16:27:02.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Jan-2021 16:27:02.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Jan-2021 16:27:02.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+12-Jan-2021 16:27:02.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50
+12-Jan-2021 16:27:02.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50
+12-Jan-2021 16:27:02.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50/temp
+12-Jan-2021 16:27:02.122 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/macmini/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+12-Jan-2021 16:27:02.265 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+12-Jan-2021 16:27:02.331 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Jan-2021 16:27:02.357 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+12-Jan-2021 16:27:02.360 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Jan-2021 16:27:02.361 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1195 ms
+12-Jan-2021 16:27:02.470 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Jan-2021 16:27:02.471 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+12-Jan-2021 16:27:02.490 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50/webapps/docs]
+12-Jan-2021 16:27:03.042 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50/webapps/docs] has finished in [551] ms
+12-Jan-2021 16:27:03.043 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50/webapps/manager]
+12-Jan-2021 16:27:03.128 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50/webapps/manager] has finished in [84] ms
+12-Jan-2021 16:27:03.129 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50/webapps/examples]
+12-Jan-2021 16:27:03.721 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50/webapps/examples] has finished in [592] ms
+12-Jan-2021 16:27:03.722 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50/webapps/ROOT]
+12-Jan-2021 16:27:03.757 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50/webapps/ROOT] has finished in [35] ms
+12-Jan-2021 16:27:03.758 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50/webapps/host-manager]
+12-Jan-2021 16:27:03.796 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50/webapps/host-manager] has finished in [39] ms
+12-Jan-2021 16:27:03.803 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+12-Jan-2021 16:27:03.821 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+12-Jan-2021 16:27:03.823 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1461 ms
+12-Jan-2021 16:33:14.076 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/Users/macmini/Desktop/Projeto_QA/Integração_Continua/apache-tomcat-8.5.50/conf/tomcat-users.xml]
+12-Jan-2021 17:30:26.235 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8001"]
+12-Jan-2021 17:30:26.245 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+12-Jan-2021 17:30:26.253 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Jan-2021 17:30:26.328 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8001"]
+12-Jan-2021 17:30:26.333 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+12-Jan-2021 17:30:26.338 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8001"]
+12-Jan-2021 17:30:26.339 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
